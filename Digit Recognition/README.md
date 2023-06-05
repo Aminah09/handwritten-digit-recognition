@@ -17,9 +17,7 @@ To run this project, you will need the following:
 ## Getting Started
 
 1. Clone this repository to your local machine or download the project files.
-2. Install the required Python libraries if not already installed. You can use the following command to install them using pip:
-
-
+2. Install the required Python libraries if not already installed. 
 3. Launch Jupyter Notebook or any other Python development environment.
 4. Open the `handwritten_digit_recognition.ipynb` notebook file.
 5. Follow the instructions provided in the notebook to execute the code and train the model.
@@ -29,10 +27,11 @@ To run this project, you will need the following:
 
 The project structure is as follows:
 
-- `handwritten_digit_recognition.ipynb`: The Jupyter Notebook containing the code for loading and preprocessing the MNIST dataset, building and training the model, and evaluating the performance.
+- `Digit Recognition.ipynb`: The Jupyter Notebook containing the code for loading and preprocessing the MNIST dataset, building and training the model, and evaluating the performance.
 - `README.md`: This readme file providing an overview of the project and instructions for running it.
-- `example_images`: This directory contains some example images of handwritten digits for testing the trained model.
-- `model`: This directory is created after training the model and contains the saved trained model.
+- `bestmodel.h5`: The trained model saved in the Hierarchical Data Format (HDF5) file format.
+- `image.png`: An example image of a handwritten digit for testing the trained model.
+- `interface.py`: A Python script that provides an interface to interact with the trained model and make predictions on new handwritten digit images.
 
 ## Dataset
 
